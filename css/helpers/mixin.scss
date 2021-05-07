@@ -1,0 +1,24 @@
+@mixin borda-redonda($raio: 0.5em) {
+
+    -webkit-border-radius: $raio;
+    -moz-border-radius: $raio;
+    -o-border-radius: $raio;
+    -ms-border-radius: $raio;
+    border-radius: $raio;
+  
+}
+  
+@mixin image-replacement {
+    
+    text-indent: -9999px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+  
+}
+  
+@mixin sombra-padrao {
+  
+    box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.6);
+  
+}
+  
